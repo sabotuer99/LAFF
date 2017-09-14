@@ -1,0 +1,49 @@
+warning: function .\plot3.m shadows a core library function
+GNU Octave, version 4.2.1
+Copyright (C) 2017 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-w64-mingw32".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/get-involved.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+>> plot3
+
+>> plot2
+
+>> plot2
+
+>> laff_copy
+
+error: 'x' undefined near line 14 column 18
+error: called from
+    laff_copy at line 14 column 10
+>> x = [1, 2, 3]
+x =
+
+   1   2   3
+
+>> y = [1, 2, 3]
+y =
+
+   1   2   3
+
+>> x == y
+ans =
+
+  1  1  1
+
+>> y = [1, 2, 4]
+y =
+
+   1   2   4
+
+>> x == y

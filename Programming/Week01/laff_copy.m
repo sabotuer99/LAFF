@@ -29,5 +29,7 @@ function [ y_out ] = laff_copy(x, y)
       y_out(i) = x_(i);
   end
     
+  y = y_out;
+    
   return
   endfunction
